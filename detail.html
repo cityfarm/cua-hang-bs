@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stylish Portfolio - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#page-top">Home</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1">Danh Sách Cửa Hàng</h1>
+            <h6 class="mb-5">
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col col-12">
+                            <h3 id="tenCuaHang" style="align-self: center;">
+
+                            </h3>
+                            <div id="hinhAnh" style="align-self: center;">
+
+                            </div>
+                            <div style="align-self: center;"> Âm Thanh</div>
+                            <div id="amThanh" style="align-self: center;">
+
+                            </div>
+                            <div style="align-self: center;"> Bản Đồ</div>
+
+                            <div id="banDo" style="align-self: center;">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </h6>
+
+        </div>
+        <div class="overlay"></div>
+    </header>
+
+    <script>
+        let idSelected = sessionStorage.getItem("id");
+        switch (idSelected) {
+            case 'A':
+                tenCuaHang.innerHTML = `MANGO Vincom Đồng Khởi`
+                hinhAnh.innerHTML = `<img src="./media/hinh-a.jpg" alt="Cửa hàng A">`
+                amThanh.innerHTML = ` <audio controls="controls" id="amThanh">
+                        <source src="./media/am-a.m4a" />
+                    </audio>`
+                banDo.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.741152742987!2d106.7020098!3d10.7779352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b9938216230e217!2zVmluY29tIENlbnRlciAoVmluY29tIMSQ4buTbmcgS2jhu59pKQ!5e0!3m2!1svi!2s!4v1617625103114!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+                break;
+            case 'B':
+                tenCuaHang.innerHTML = `Thế Giới Di Động - PVH`
+                hinhAnh.innerHTML = `<img src="./media/hinh-b.jpg" alt="Cửa hàng B">`
+                amThanh.innerHTML = ` <audio controls="controls" id="amThanh">
+                        <source src="./media/am-b.m4a" />
+                    </audio>`
+                banDo.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15675.108917578184!2d106.61086356977536!3d10.828352900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bd0500e7b5b%3A0x988f620a91094fb4!2zVEdERCAtIFBoYW4gVsSDbiBI4bubbg!5e0!3m2!1svi!2s!4v1617625334265!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+                break;
+            case 'C':
+                tenCuaHang.innerHTML = `Ngân hàng TMCP Á Châu - PGD An Sương`
+                hinhAnh.innerHTML = `<img src="./media/hinh-c.jpg" alt="Cửa hàng C">`
+                amThanh.innerHTML = ` <audio controls="controls" id="amThanh">
+                        <source src="./media/am-c.m4a" />
+                    </audio>`
+                banDo.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15674.424595445169!2d106.60817652747217!3d10.841422426438106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bd8158e83e9%3A0x47b1596be108cbd3!2zTmfDom4gaMOgbmcgVE1DUCDDgSBDaMOidSAtIFBHRCBBbiBTxrDGoW5n!5e0!3m2!1svi!2s!4v1617625670455!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+                break;
+            default:
+            // code block
+        }
+
+    </script>
+
+    <script src="./js/main.js"></script>
+
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
