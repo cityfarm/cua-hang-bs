@@ -25,7 +25,7 @@ function readDetail(){
             amThanh.innerHTML = ` <audio controls="controls" id="amThanh">
                     <source src="./media/am-a.m4a" />
                 </audio>`
-            banDo.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15677.741152742987!2d106.7020098!3d10.7779352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b9938216230e217!2zVmluY29tIENlbnRlciAoVmluY29tIMSQ4buTbmcgS2jhu59pKQ!5e0!3m2!1svi!2s!4v1617625103114!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+            banDo.innerHTML = `<a target="_blank" href="https://www.google.com/maps/dir//B1-+33-37,+Vincom+Center+%C4%90%E1%BB%93ng+Kh%E1%BB%9Fi,+72+L%C3%AA+Th%C3%A1nh+T%C3%B4n,+P.+B%E1%BA%BFn+Ngh%C3%A9,+Qu%E1%BA%ADn+1/@10.778933,106.6880956,15z/data=!4m2!4m1!3e0">Vị trí cửa hàng trên bản đồ</a>`
             isSmoke.innerHTML=`Có`
             price.innerHTML='30.000 VND'
             isPromotion.innerHTML='Không'
@@ -36,7 +36,7 @@ function readDetail(){
             amThanh.innerHTML = ` <audio controls="controls" id="amThanh">
                     <source src="./media/am-b.m4a" />
                 </audio>`
-            banDo.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15675.108917578184!2d106.61086356977536!3d10.828352900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bd0500e7b5b%3A0x988f620a91094fb4!2zVEdERCAtIFBoYW4gVsSDbiBI4bubbg!5e0!3m2!1svi!2s!4v1617625334265!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+            banDo.innerHTML = `<a target="_blank" href="https://www.google.com/maps/dir//B1-+33-37,+Vincom+Center+%C4%90%E1%BB%93ng+Kh%E1%BB%9Fi,+72+L%C3%AA+Th%C3%A1nh+T%C3%B4n,+P.+B%E1%BA%BFn+Ngh%C3%A9,+Qu%E1%BA%ADn+1/@10.778933,106.6880956,15z/data=!4m2!4m1!3e0">Vị trí cửa hàng trên bản đồ</a>`
             isSmoke.innerHTML=`Không`
             price.innerHTML='Không biết'
             isPromotion.innerHTML='Không'
@@ -47,7 +47,7 @@ function readDetail(){
             amThanh.innerHTML = ` <audio controls="controls" id="amThanh">
                     <source src="./media/am-c.m4a" />
                 </audio>`
-            banDo.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15674.424595445169!2d106.60817652747217!3d10.841422426438106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bd8158e83e9%3A0x47b1596be108cbd3!2zTmfDom4gaMOgbmcgVE1DUCDDgSBDaMOidSAtIFBHRCBBbiBTxrDGoW5n!5e0!3m2!1svi!2s!4v1617625670455!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+            banDo.innerHTML = `<a target="_blank" href="https://www.google.com/maps/dir//B1-+33-37,+Vincom+Center+%C4%90%E1%BB%93ng+Kh%E1%BB%9Fi,+72+L%C3%AA+Th%C3%A1nh+T%C3%B4n,+P.+B%E1%BA%BFn+Ngh%C3%A9,+Qu%E1%BA%ADn+1/@10.778933,106.6880956,15z/data=!4m2!4m1!3e0">Vị trí cửa hàng trên bản đồ</a>`
             isSmoke.innerHTML=`Có`
             price.innerHTML='28.000 VND'
             isPromotion.innerHTML='Có'
