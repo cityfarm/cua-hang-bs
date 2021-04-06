@@ -23,7 +23,31 @@
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
 </head>
+<style>
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
 
+    #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left!important;
+    }
+
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #aaaaaa;
+        color: white;
+    }
+</style>
 <body id="page-top" style="text-align: center!important;">
 
     <!-- Header -->
@@ -42,22 +66,39 @@
                 <div id="amThanh" style="align-self: center;">
 
                 </div>
-                <div style="align-self: center;"> Bản Đồ</div>
+                <div style="align-self: center;"></div>
 
                 <div id="banDo" style="align-self: center;">
                 </div>
-                <div style="text-align:center;">
-                    <div style="display:inline;">1. Cửa hàng có bán thuốc Camel không? Trả lời: </div>
-                    <div style="display:inline;" id="isSmoke">Có</div>
-                </div>
-                <div style="text-align:center;">
-                    <div style="display:inline;">2. Giá bán? Trả lời: </div>
-                    <div style="display:inline;" id="price">300000</div>
-                </div>
-                <div style="text-align:center;">
-                    <div style="display:inline;">3. Có khuyến mãi không? Trả lời: </div>
-                    <div style="display:inline;" id="isPromotion">Có</div>
-                </div>
+
+
+                <table id="customers">
+                    <thead>
+                    <tr>
+                        <th>Câu hỏi</th>
+                        <th>Trả lời</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1. Cửa hàng có bán thuốc Camel không?</td>
+                        <td id="isSmoke"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td>2. Giá bán</td>
+                        <td id="price" >365 Phan Văn Hớn, P, Quận 12, Thành phố Hồ Chí Minh</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>3. Có khuyến mãi không?</td>
+                        <td id="isPromotion">179 Trường Chinh, Tân Thới Nhất, Quận 12, Thành phố Hồ Chí Minh</td>
+                    </tr>
+
+                    </tbody>
+                </table>
 
 
             </h6>
